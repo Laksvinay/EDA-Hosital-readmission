@@ -1,10 +1,10 @@
 #D207 Exploratory Data Analysis
 
 #set the workspace to a specific directory
-setwd('C:/Users/laksh/Desktop/WGU-MS Data analytics')
+setwd('path')
 
 #Import data set to a new dataframe
-exdata<-read.csv('C:/Users/laksh/Desktop/WGU-MS Data analytics/MSDA-D207-Exploratory Analysis/Performance assessment D207/medical_clean.csv',header=TRUE)
+exdata<-read.csv('path/medical_clean.csv',header=TRUE)
 
 #install required packages and load libraries
 install.packages("dplyr")       #for data manipulation tasks
